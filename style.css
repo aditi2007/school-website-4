@@ -1,0 +1,65 @@
+.header{
+     display:flex;
+justify-content: center;
+}
+/*:hover{
+    background-color: sandybrown;
+}*/
+
+*{
+    color: whitesmoke
+    margin:100px;
+    padding: 50px;
+}
+
+.layout{
+    display:flex;
+   background-color: #909090;
+  border: 20px solid seagreen;
+  opacity:0.9;
+  direction: rtl;
+  cursor: help;
+   /* unicode-bidi: bidi-override;
+    flex-wrap: wrap;
+    justify-content: center;*/
+   
+}
+.content{
+    display: flex;
+    background-color: silver;
+    border: 20px solid seagreen;
+  opacity:0.9;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dates{
+    display: flex;
+    background-color: rgb(218, 106, 218);
+    border: 20px solid seagreen;
+  opacity:0.9;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.link{
+    display:flex;
+    
+    justify-content: center;
+}
+.link:hover{
+    color:red;
+}
+.link:visited{
+    color:gold;
+}
+.pic{
+    
+    border: 20px solid seagreen;
+  opacity:0.9;display:flex;
+    justify-content: center;
+}
+h1{
+    font-size: medium;
+   font-weight: bolder;
+    text-align: center;
+    direction: ltr;
+}
